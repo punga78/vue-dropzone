@@ -38,6 +38,11 @@ export default {
       default: true,
       required: false
     },
+    timeout: {
+      type: Numeric,
+      default: 180000,
+      required: false
+    },
     duplicateCheck: {
       type: Boolean,
       default: false,
